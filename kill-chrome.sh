@@ -1,10 +1,5 @@
 #!/bin/sh
+for i in $(seq 1 10)
+do
 killall chrome
-killall chrome
-killall chrome
-killall chrome
-killall chrome
-killall chrome
-killall chrome
-killall chrome
-killall chrome
+done
